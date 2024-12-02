@@ -1,0 +1,24 @@
+[17-Oct-2023 14:55:27 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/olabasket/public_html/admin/api/connection.php:15
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/connection.php(15): PDO->__construct('mysql:dbname=ol...', 'olabasket_websi...', 'Olabasket@123_4')
+#1 /home/olabasket/public_html/index.php(2): require_once('/home/olabasket...')
+#2 {main}
+  thrown in /home/olabasket/public_html/admin/api/connection.php on line 15
+[17-Oct-2023 14:55:28 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/olabasket/public_html/admin/api/connection.php:15
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/connection.php(15): PDO->__construct('mysql:dbname=ol...', 'olabasket_websi...', 'Olabasket@123_4')
+#1 /home/olabasket/public_html/index.php(2): require_once('/home/olabasket...')
+#2 {main}
+  thrown in /home/olabasket/public_html/admin/api/connection.php on line 15
+[25-Oct-2023 00:55:18 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/olabasket/public_html/admin/api/connection.php:15
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/connection.php(15): PDO->__construct('mysql:dbname=ol...', 'olabasket_websi...', 'Olabasket@123_4')
+#1 /home/olabasket/public_html/product_details.php(2): require_once('/home/olabasket...')
+#2 {main}
+  thrown in /home/olabasket/public_html/admin/api/connection.php on line 15
+[06-Nov-2023 20:55:17 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/olabasket/public_html/admin/api/connection.php:15
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/connection.php(15): PDO->__construct('mysql:dbname=ol...', 'olabasket_websi...', 'Olabasket@123_4')
+#1 /home/olabasket/public_html/index.php(2): require_once('/home/olabasket...')
+#2 {main}
+  thrown in /home/olabasket/public_html/admin/api/connection.php on line 15

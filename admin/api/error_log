@@ -1,0 +1,134 @@
+[03-Nov-2023 15:43:09 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('brand_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(272): PDODb->insert('brand_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[03-Nov-2023 15:44:33 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('brand_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(272): PDODb->insert('brand_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[03-Nov-2023 15:55:16 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('brand_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(272): PDODb->insert('brand_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[03-Nov-2023 15:55:22 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('brand_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(272): PDODb->insert('brand_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[04-Nov-2023 08:24:34 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FINE' AND brand_id != '7'' at line 1 in /home/olabasket/public_html/admin/api/PDODb.php:1160
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(1160): PDOStatement->execute()
+#1 /home/olabasket/public_html/admin/api/functions.php(238): PDODb->rawQuery('SELECT * FROM b...')
+#2 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#3 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 1160
+[04-Nov-2023 08:24:40 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FINE' AND brand_id != '7'' at line 1 in /home/olabasket/public_html/admin/api/PDODb.php:1160
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(1160): PDOStatement->execute()
+#1 /home/olabasket/public_html/admin/api/functions.php(238): PDODb->rawQuery('SELECT * FROM b...')
+#2 /home/olabasket/public_html/admin/api/api.php(65): addEditBrandData(Array)
+#3 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 1160
+[08-Nov-2023 12:40:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:40:43 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:40:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:44:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:49:40 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:49:41 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 12:50:32 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381
+[08-Nov-2023 13:04:24 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/olabasket/public_html/admin/api/PDODb.php:381
+Stack trace:
+#0 /home/olabasket/public_html/admin/api/PDODb.php(381): implode(Array, '`, `')
+#1 /home/olabasket/public_html/admin/api/PDODb.php(509): PDODb->buildInsertQuery(Array)
+#2 /home/olabasket/public_html/admin/api/PDODb.php(338): PDODb->buildQuery(NULL, Array)
+#3 /home/olabasket/public_html/admin/api/PDODb.php(942): PDODb->buildInsert('product_master', Array, 'INSERT')
+#4 /home/olabasket/public_html/admin/api/functions.php(711): PDODb->insert('product_master', Array)
+#5 /home/olabasket/public_html/admin/api/api.php(90): addEditProductData(Array)
+#6 {main}
+  thrown in /home/olabasket/public_html/admin/api/PDODb.php on line 381

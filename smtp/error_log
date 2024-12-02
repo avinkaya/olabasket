@@ -1,0 +1,8 @@
+[31-Mar-2023 03:07:30 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'ENCRYPTION_SMTPS' in /home/olabasket/public_html/smtp/mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/olabasket/public_html/smtp/mail.php on line 14
+[31-Mar-2023 03:11:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/olabasket/public_html/smtp/mail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/olabasket/public_html/smtp/mail.php on line 7

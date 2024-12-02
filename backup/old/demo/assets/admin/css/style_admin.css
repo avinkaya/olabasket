@@ -1,0 +1,65 @@
+.table-image{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border:solid 1px #eaeaea;
+	cursor:pointer;
+}
+
+.div-image{
+	display:inline-block;
+}
+
+.div-image ul{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+}
+
+.div-image ul li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	border:solid 1px #aeaeae;
+	border-radius:10px;
+	box-shadow:1px 1px 5px #aaa;
+	margin-top:15px;
+	margin-right:10px;
+}
+
+.div-image ul li .div-image-content{
+	cursor:pointer;
+	min-width:240px;
+	min-height:300px;
+	border-radius:10px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.div-image ul li .div-image-content-portait{
+	cursor:pointer;
+	min-width:450px;
+	min-height:200px;
+	border-radius:10px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.div-image ul li:hover{
+	border:solid 1px gold;
+	box-shadow:2px 2px 5px gold;
+}
+
+.div-image ul li .div-image-delete{
+	float:right;
+	width:30px;
+	height:30px;
+	background-image:url(../img/remove.png);
+	background-size:30px 30px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}

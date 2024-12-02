@@ -1,0 +1,45 @@
+body{
+				margin:0px;
+				padding:0px;
+				background:url(../img/background1.png);
+				background-size:cover!important;
+				background-repeat:no-repeat;
+			}
+			
+			.body_top{
+				padding:17px;
+				background:rgba(0,0,0,0.5);
+				color:white;
+				font-size:30px;
+			}
+			
+			.box_login{
+				font-family:arial;
+				font-size:14px;
+				position:relative;
+				top:100px;
+				left:100px;
+				width:300px;
+				padding:20px;
+				border:solid 1px #eaeaea;
+				border-radius:10px;
+				background:rgba(255,255,255,0.5);
+			}
+			
+			.box_login .textbox{
+				padding:7px 0px 7px 0px;
+				width:100%;
+			}
+			
+			.box_login .button{
+				padding:10px;
+				width:100%;
+				background:rgba(0,0,0,0.7);
+				border:0px;
+				cursor:pointer;
+				color:white;
+			}
+			
+			.box_login .button:hover{
+				background:rgba(0,0,0,0.9);
+			}

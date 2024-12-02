@@ -1,0 +1,48 @@
+#divtop{background:#6F0000;padding:0 0 0 0}
+#divtopcenter{width:970px;}
+#divtopcentertext{font-family:arial;font-size:18px;color:white}
+#divtopcenterblank{background:#C10000;padding:5 15 5 5;color:white;font-family:arial;font-size:12px;border-top:#5E0000;border-left:#5E0000;border-right:#5E0000;}
+#divbottom{width:970px;border-top:solid 1px #6F0000}
+#divbottomtext{font-size:12px;font-family:arial;color:#6F0000}
+#inputsearch{border:solid 1px #800000;font-size:12px;font-family:arial;padding:3 3 3 3}
+#inputsearchbutton{border:solid 1px #6F0000;padding:3 3 3 3}
+#divinti{height:auto;width:970px;padding:0 0 0 0;}
+#divintia{background-image:url('../images/peta.gif');background-size:970px ;background-repeat:no-repeat;height:500px;width:970px;padding:0 0 0 0;}
+#menu_top_link {padding:9 10 9 10;text-decoration:none;font-family:arial;font-size:12px;color:white}
+#menu_top_link:hover{padding:9 10 9 10;background:#FF9595;text-decoration:none;font-family:arial;font-size:12px;color:black}
+#menuakun{padding:5 5 5 10;height:40px;border:solid 0px;font-family:arial;font-size:12px;text-decoration:none;color:#333333;background-image:url('../images/menubg.jpg');}
+#menuakun a{padding:5 5 5 10;border:solid 0px;font-family:arial;font-size:12px;text-decoration:none;color:#333333;}
+#menuakun:hover{padding:5 5 5 10;background:#E2E2E2;border:solid 0px;font-family:arial;font-size:12px;text-decoration:none;color:#333333;}
+#menuakunjudul{;padding:7 5 7 5;border:solid 0px;font-family:arial;font-size:12px;text-decoration:none;color:white;background:#FF6A6A;}
+#intidisplaystyle{padding:0 10 10 10;font-family:arial;font-size:12px;color:black;text-decoration:none;}
+#intidisplaystyle table tr td{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;}
+#intidisplaystyle table tr td input,select,textarea{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:7 7 7 7;border:solid 1px #808080;}
+#intidisplaystyle table tr td input:hover,select:hover,textarea:hover{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:7 7 7 7;border:solid 1px #FF0000;}
+#intidisplaystyle table tr th {font-family:arial;font-size:12px;color:white;text-decoration:none;}
+#intidisplaystyle input,select,textarea{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:7 7 7 7;border:solid 1px #808080;}
+#intidisplaystyle input:hover,select:hover,textarea:hover{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:7 7 7 7;border:solid 1px #FF0000;}
+#stylestandart {color:#535353;text-decoration:none;}
+#stylestandart a{color:#640000;text-decoration:none;}
+#stylestandart a:hover{color:#C10000;text-decoration:none;}
+#inputtextarea{border:solid 1px #C0C0C0;color:#333333;padding:5 5 5 5;width:500px;}
+#menu_judul_inti{padding:10 10 10 10;background:#E0E0E0;border-bottom:#C0C0C0;font-family:arial;font-size:13px;}
+#menu_alert_inti{padding:10 10 10 10;background:#FFC1C1;border-bottom:#530000;font-family:arial;font-size:13px;}
+#tableinti table tr td{background:#F3F3F3;font-family:arial;font-size:11px;}
+#tableinti table tr:hover td{background:#FFC6C6;}
+#tableinti table tr td a{color:#710000;text-decoration:none;font-family:arial;font-size:12px;}
+#tableinti1 table tr td{background:#D8D8D8;font-family:arial;font-size:11px;}
+#tableinti1 table tr:hover td{background:#ACACAC;}
+#tableinti1 table tr td a{color:#993300;text-decoration:none;font-family:arial;font-size:12px;}
+#menu_gold_inti{padding:10 10 10 10;background:#D7FFFF;border-bottom:#007777;font-family:arial;font-size:13px;}
+#menu_box{height:40px}
+#menu_box a{width:300px;padding:12 12 12 20;border-right:solid 1px rgb(147,151,145);border-top:solid 1px rgb(147,151,145);background:rgb(222,222,220);text-decoration: none;color:#6B6969;}
+#menu_box a:hover {width:300px;padding:12 12 12 20;border-right:solid 1px rgb(147,151,145);border-top:solid 1px rgb(147,151,145);background:white;text-decoration: none;}
+#menu_box1{padding:6 5 8 6;background:#5B5B5B;text-decoration: none;color:white;}
+#menu_box1 a{width:300px;padding:5 10 5 10;background:#5B5B5B;text-decoration: none;color:white;}
+#menu_box1 a:hover {width:300px;padding:5 10 5 10;background:#808080;text-decoration: none;color:yellow}
+#formstyle input {font-family:arial;font-size:12px;text-decoration:none;color:#333333;padding:7 7 7 7;border:solid 1px #808080;}
+#link a{font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:8 7 8 7;border:solid 1px #808080;background:#DFDFDF;}
+#link a:hover {font-family:arial;font-size:12px;color:black;text-decoration:none;color:#333333;padding:8 7 8 7;border:solid 1px #808080;background:#EEEEEE;}
+#proses{border:solid 1px rgb(147,151,145);padding:10 10 10 10;}
+#proses2{border:solid 1px rgb(147,151,145);padding:10 10 10 10;}
+
